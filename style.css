@@ -13,6 +13,30 @@ header{
     font-weight: bold;
 }
 
+.app-header {
+    background-color: #0d2d1f;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+}
+
+.logo-icon {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    object-fit: contain; /* Ensures it stays within bounds */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo-text {
+    color: #f5c000;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1;
+    vertical-align: middle;
+}
+
 h1{
     margin: 0;
     padding-left: 10px;
